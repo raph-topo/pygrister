@@ -80,7 +80,7 @@ class Configurator:
                 config.update(modjson.loads(f.read()))
         for k in config.keys():
             try:
-                config[k] = os.environ[k]
+                config[k] = os.environ[k]  # @IgnoreException
             except KeyError:
                 pass
         return config
