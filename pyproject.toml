@@ -35,3 +35,5 @@ Repository = "https://github.com/ricpol/pygrister"
 "Bug Tracker" = "https://github.com/ricpol/pygrister/issues"
 Changelog = "https://github.com/ricpol/pygrister/blob/main/NEWS.txt"
 Documentation = "https://pygrister.readthedocs.io"
+
+[tool.ruff.lint]
